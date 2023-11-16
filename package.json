@@ -1,0 +1,32 @@
+{
+  "name": "feed-reactor",
+  "version": "0.0.1",
+  "description": "Feed Reactor",
+  "main": "src/feed-reactor.js",
+  "scripts": {
+    "build": "npx tsc",
+	"dev": "npx tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dellagustin/feed-reactor.git"
+  },
+  "keywords": [
+    "RSS",
+    "feed",
+    "automation"
+  ],
+  "author": "Guilherme Dellagustin <dellagustin.developer@gmail.com> (https://dellagustin.github.io/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dellagustin/feed-reactor/issues"
+  },
+  "homepage": "https://github.com/dellagustin/feed-reactor#readme",
+  "dependencies": {
+    "@types/node": "^20.8.9",
+    "commander": "^11.1.0",
+    "node-fetch": "^3.3.2",
+    "typescript": "^5.2.2"
+  }
+}
